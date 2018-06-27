@@ -1,0 +1,40 @@
+<!DocTYPE html>
+<html>
+  <head>
+    <title>The Map Project</title>
+    <meta charset= "UTF-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="mast-head">
+   <h1>
+    <span style="font-family:lobster">My travels route</span>
+    <span class='otherStyle'>by sekou </span>
+  </h1>
+      <hr>
+
+      <div class="travel-details">
+        <div class="nav navbar-nav navbar-collapse">
+          <ul id="cities">
+            <li><button id="Adjame" class="active btn btn-primary" onclick="clickCity(0)">Adjame</a></li>
+            <li><button id="Paris" class="btn btn-primary" onclick="clickCity(1)">Paris</a></li>
+            <li><button id="NewYork" class="btn btn-primary" onclick="clickCity(2)">NewYork</a></li>
+          </ul>
+        </div>
+
+        <div id="info">Welcome to my travel page. How I came to the United States</div>
+        <img id ="pic" src="latin-2.jpg">
+      </div>
+
+      <div id="mymap" style="float:right; border: 3px solid blue; height: 500px; width: 70rem; margin-right:50px"></div>
+      <div id="cityId" style="float:right; margin-right:30px"></div>
+    </div>
+
+    <script src="gmap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkPL10wkF1xMpdPX9asd35-Iek-upgyLY&callback=initMap"></script>
+  </body>
+</html>

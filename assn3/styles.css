@@ -1,0 +1,59 @@
+ .mast-head {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.travel-details {
+  max-width: 50%;
+  display: inline;
+  float: left;
+}
+
+ul {
+  float:left; 
+  list-style: none;
+  padding: 4px;
+}
+
+h1 {
+  font-family:'EB-Garamond, serif';
+  text-align:left;
+}
+.otherStyle{  
+color:#f0f0f5;
+font-size: 25px;
+}
+
+body{
+  background-color:white;
+}
+
+button {
+  margin-left: 5 px;
+  margin-bottom:5px;
+  color: #000000;
+  margin:5px;
+  padding:5px;
+}
+
+#info {
+  margin-top: 7rem;
+  margin-left: 10px;
+}
+
+#pic{
+  margin-left: 20px;
+}
+
+#cities {
+}
+
+#cities li{
+  cursor: pointer;
+  float: left;
+  margin-right: 20px;
+}
+
+.active{
+  background-color:#48D1CC;
+}
